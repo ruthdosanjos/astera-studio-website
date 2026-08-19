@@ -8,6 +8,10 @@
 
 [![Site](https://img.shields.io/badge/Visitar-goastera.com.br-E86A33)](https://goastera.com.br/)
 
+<div align="center">
+<img src="./src/assets/astera.jpeg" alt="Astera Studio" width="100%" />
+</div>
+
 Site institucional da **Astera Studio**, um estúdio criativo independente que une estratégia, design e tecnologia para criar experiências digitais.
 
 Este repositório apresenta a implementação front-end do projeto, desenvolvido a partir de uma proposta visual criada no Figma e posteriormente estruturado e refatorado em **React + TypeScript**, com foco em arquitetura de componentes, responsividade, acessibilidade e qualidade de código.
