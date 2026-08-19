@@ -1,4 +1,12 @@
-# Astera Studio — Institutional Website
+# Astera Studio — Site Institucional
+
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react\&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript\&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite\&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss\&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?logo=vercel\&logoColor=white)
+
+[![Site](https://img.shields.io/badge/Visitar-goastera.com.br-E86A33)](https://goastera.com.br/)
 
 Site institucional da **Astera Studio**, um estúdio criativo independente que une estratégia, design e tecnologia para criar experiências digitais.
 
@@ -8,7 +16,7 @@ Este repositório apresenta a implementação front-end do projeto, desenvolvido
 
 A primeira versão da interface foi desenvolvida com apoio do **Figma Make** e exportada para React. A partir dessa base, o projeto passou por um processo de refatoração para transformar o código gerado em uma aplicação mais organizada, reutilizável e preparada para manutenção e evolução.
 
-O trabalho envolveu revisão da arquitetura, criação de componentes reutilizáveis, centralização de tokens visuais, melhorias de semântica e acessibilidade, otimização de assets e validação do comportamento da interface em diferentes tamanhos de tela.
+O trabalho envolveu revisão da arquitetura, criação de componentes reutilizáveis, centralização de tokens visuais, melhorias de semântica e acessibilidade, otimização de recursos e validação da interface em diferentes tamanhos de tela.
 
 ## Stack
 
@@ -35,14 +43,14 @@ O trabalho envolveu revisão da arquitetura, criação de componentes reutilizá
 
 A interface foi adaptada para diferentes tamanhos de viewport, incluindo desktop, tablet e mobile.
 
-Entre os ajustes estão:
+Entre os principais ajustes estão:
 
 * navegação adaptativa;
-* reorganização de elementos da Hero Section;
+* reorganização dos elementos da Hero Section;
 * grids responsivos;
 * ajustes tipográficos;
 * espaçamentos fluidos;
-* adaptação das seções e cards para diferentes breakpoints.
+* adaptação de seções e cards para diferentes breakpoints.
 
 ### Acessibilidade
 
@@ -51,22 +59,21 @@ O projeto recebeu uma revisão específica de acessibilidade e semântica, inclu
 * landmarks semânticos;
 * `main` único para o conteúdo principal;
 * skip link para navegação por teclado;
-* hierarquia de headings;
+* hierarquia de títulos;
 * elementos decorativos removidos da árvore de acessibilidade;
-* navegação por teclado;
-* tratamento de foco;
+* navegação por teclado e tratamento de foco;
 * suporte a `prefers-reduced-motion`.
 
 ### Performance e otimização
 
 Durante a etapa de refinamento foram realizadas otimizações como:
 
-* conversão e compressão de assets;
-* uso de WebP para imagens;
+* conversão e compressão de imagens;
+* uso de WebP;
 * otimização do carregamento de fontes;
 * redução de recursos desnecessários;
-* validação de build de produção;
-* análise da interface com Lighthouse.
+* validação do build de produção;
+* análise de performance e acessibilidade com Lighthouse.
 
 ## Estrutura
 
@@ -89,7 +96,7 @@ A estrutura foi organizada para manter responsabilidades separadas e facilitar a
 Clone o repositório:
 
 ```bash
-git clone <URL-DO-REPOSITORIO>
+git clone https://github.com/ruthdosanjos/astera-studio-website.git
 ```
 
 Entre na pasta:
@@ -126,7 +133,7 @@ npm run build
 
 O projeto está disponível em produção em:
 
-**https://goastera.com.br/**
+**[goastera.com.br](https://goastera.com.br/)**
 
 ## Contexto
 
@@ -137,4 +144,4 @@ O repositório público foi preparado como uma versão de apresentação técnic
 ---
 
 Desenvolvido por **Ruth Emilly dos Anjos Paulino**
-Front-end Developer
+Desenvolvedora Front-end
